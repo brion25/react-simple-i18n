@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 20 versions"]
+      },
+      "modules": false
+    }],
+    "react"
+  ],
+  "plugins": [
+    "external-helpers"
+  ]
+}

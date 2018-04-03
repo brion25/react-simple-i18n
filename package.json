@@ -1,0 +1,43 @@
+{
+  "name": "react-simple-i18n",
+  "version": "1.0.0",
+  "description": "Small library to handle i18n using the Provider Pattern",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "rollup -c",
+    "dev:watch": "npm run dev -- -w",
+    "prepublish": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brion25/react-simple-i18n.git"
+  },
+  "keywords": [
+    "react",
+    "rollup"
+  ],
+  "author": "JC Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brion25/react-simple-i18n/issues"
+  },
+  "homepage": "https://github.com/brion25/react-simple-i18n#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "prop-types": "^15.6.1"
+  }
+}
